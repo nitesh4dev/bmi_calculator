@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 198, 198);
+    font-family: 'Joan', serif;
+}
+.container{
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    transform: translateY(40%);
+    background-color: #c3c4c7;
+    padding: 30px;
+    border-radius: 5px;
+    height: 45vh;
+    width: 30vw;
+}
+.heading{
+    text-transform: uppercase;
+    margin-top: -20px;
+    font-size: 80%;
+    background-color: rgb(216, 157, 20);
+    border-radius: 3px;
+
+}
+.height{
+    margin-top: 30px;
+}
+.weight{
+    margin-top: 15px;
+}
+.height, .weight{
+    font-size: 17px;
+}
+input{
+    border-radius: 3px;
+    margin-top: 7px;
+    width: 60%;
+    height: 20px;
+}
+button{
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 3px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+}
+button:hover{
+    background-color: rgb(216, 157, 20);
+    transition: 0.3s;
+}
+#comment{
+    margin-top: 20px;
+    font-size: 16px;
+}
+@media  (max-width : 420px){
+    input{
+        width: 100%;
+        height: 30px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        transform: translateY(-42%);
+    }
+    .container{
+        height: 91.5%;
+        width: 100%;
+    }
+   
+}
